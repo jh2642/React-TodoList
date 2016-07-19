@@ -1,0 +1,24 @@
+$pink: rgb(249, 7, 124);
+$blue: rgb(12, 150, 218);
+$black: rgb(9, 9, 9);
+
+body {
+  background-color: $blue;
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+}
+
+.jumbotron {
+  font-size: 100px;
+  background-color: transparent;
+  text-align: center;
+  color:$pink;
+  font-family: 'Bungee', cursive;
+  font-style: italic;
+  text-shadow: -4px 0 $black, 0 4px $black, 4px 0 $black, 0 -4px $black;
+}
+
+.listItems {
+  list-style: none;
+  text-shadow: -2px 0 $pink, 0 2px $pink, 2px 0 $pink, 0 -2px $pink;
+}

@@ -1,0 +1,20 @@
+body {
+  background-color: #0c96da;
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+}
+
+.jumbotron {
+  font-size: 100px;
+  background-color: transparent;
+  text-align: center;
+  color: #f9077c;
+  font-family: 'Bungee', cursive;
+  font-style: italic;
+  text-shadow: -4px 0 #090909, 0 4px #090909, 4px 0 #090909, 0 -4px #090909;
+}
+
+.listItems {
+  list-style: none;
+  text-shadow: -2px 0 #f9077c, 0 2px #f9077c, 2px 0 #f9077c, 0 -2px #f9077c;
+}
